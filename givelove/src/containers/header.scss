@@ -1,0 +1,37 @@
+#nav-container{
+    width: 1360px;
+    height: 70px;
+    margin: 0 auto;
+    
+    #logo{
+        width: 283px;
+        height: 70px;
+        float: left;
+        
+        #NavLogo{
+            width: 183px;
+            margin: 8px 50px;
+        }
+    }
+
+    #MenuBar{
+        .menu{
+            font-size: 20px;
+            float: left;
+        
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+    }
+
+    #member{
+        #login{
+            font-size: 15px;
+            color: #575757;
+            float: left;
+            margin-top: 25px;
+            margin-left: 750px;
+        }
+    }
+    
+}
