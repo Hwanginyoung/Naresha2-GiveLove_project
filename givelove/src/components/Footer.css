@@ -1,13 +1,21 @@
-* {
-    align-items: center;
-}
-
 .Footer {
-    width: 1360px;
+    width: 1480px;
     height: 300px;
+    margin: 0 auto;
 }
 
 .Footer header {
     background: black;
 }
 
+.Footer .imformation {
+    color: white;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-evenly
+}
+
+.Footer .imformation .title {
+    font-weight: bold;
+    font-size: 15px;
+}
