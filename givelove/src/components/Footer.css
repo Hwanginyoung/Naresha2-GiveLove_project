@@ -1,13 +1,40 @@
-* {
+.Footer {
+    width: 1480px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.Footer .main {
+    display: flex;
     align-items: center;
 }
 
-.Footer {
-    width: 1360px;
-    height: 300px;
+.Footer .main .hr {
+    width: 900px;
+}
+
+.Footer .logo {
+    width: 171px;
+    height: 42px; 
 }
 
 .Footer header {
     background: black;
 }
 
+.Footer .imformation {
+    color: white;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-evenly;
+}
+
+.Footer .imformation .title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Footer .school-logo {
+    width: 300px;
+    height: 25.79px;
+}
