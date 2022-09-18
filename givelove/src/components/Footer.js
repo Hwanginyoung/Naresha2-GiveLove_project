@@ -7,7 +7,10 @@ const Footer = () => {
         <>
             <div className='Footer'>
                 <header>
-                    <img src={footerlogo} className="logo" alt="logo" />
+                    <div className='main'>    
+                        <img src={footerlogo} className="logo" alt="logo" />
+                        <hr className='hr' />
+                    </div>
                     <div className='imformation'>
                         <div className='developer'>
                             <p className='title'>개발자 이메일</p>

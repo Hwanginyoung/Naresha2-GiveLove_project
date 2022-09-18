@@ -4,6 +4,20 @@
     margin: 0 auto;
 }
 
+.Footer .main {
+    display: flex;
+    align-items: center;
+}
+
+.Footer .main .hr {
+    width: 900px;
+}
+
+.Footer .logo {
+    width: 171px;
+    height: 42px; 
+}
+
 .Footer header {
     background: black;
 }
@@ -18,4 +32,9 @@
 .Footer .imformation .title {
     font-weight: bold;
     font-size: 15px;
+}
+
+.Footer .school-logo {
+    width: 300px;
+    height: 25.79px;
 }
