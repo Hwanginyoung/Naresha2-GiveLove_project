@@ -1,4 +1,13 @@
+* {
+    align-items: center;
+}
+
 .Footer {
     width: 1360px;
-    height: 100vh;
+    height: 300px;
 }
+
+.Footer header {
+    background: black;
+}
+
