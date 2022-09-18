@@ -12,7 +12,7 @@
     color: white;
     display: flex;
     font-size: 13px;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .Footer .imformation .title {
