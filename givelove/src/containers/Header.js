@@ -1,7 +1,7 @@
 import React from 'react';
 import NavLogo from '../image/NavLogo.png';
 import "./Header.css";
-import {Link, useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 function Header() {
 
