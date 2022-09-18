@@ -1,10 +1,16 @@
 #loginpage{
-    width: 1400px;
+    width: 1200px;
     height: 600px;
     background-color: red;
-    background-position: center;
+    position: relative;
+    margin: 0 auto;
 }
 
 #LoginImg{
-    
+    height: 600px;
+    float: left;
+}
+
+#login{
+    float: left;
 }

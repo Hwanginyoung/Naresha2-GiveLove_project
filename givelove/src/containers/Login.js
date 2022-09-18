@@ -7,8 +7,7 @@ function Login() {
     <>
     <div id="loginpage">
         <div id="img">
-        <img src={LoginImg} id="LoginImg" alt="LoginImg" />
-
+            <img src={LoginImg} id="LoginImg" alt="LoginImg" />
         </div>
         <div id="login">
             <div>아이디</div>
