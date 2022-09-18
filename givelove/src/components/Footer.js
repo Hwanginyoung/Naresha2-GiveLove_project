@@ -5,6 +5,7 @@ const footer = () => {
     <div className='Footer'>
         <header>
             <img src={footerlogo} className="logo" alt="logo" />
+            <p>footer</p>
         </header>
     </div>
 }
