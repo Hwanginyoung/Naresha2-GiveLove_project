@@ -12,7 +12,7 @@ const Main = () => {
                     <input type={"text"} placeholder="검색어를 입력해 주세요"/>
                 </div>
                 <div className='contents'>
-                    <p>전체 / 금액 기부 / 물품 기부</p>
+                    <p className='select'>전체 / 금액 기부 / 물품 기부</p>
                 </div>
             </header>
         </div>
