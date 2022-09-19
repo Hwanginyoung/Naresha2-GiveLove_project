@@ -1,5 +1,33 @@
 .Main {
     width: 1480px;
-    height: 245px;
     margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Main .picture1 {
+    width: 1480px;
+    height: 500px;
+}
+
+.Main .search input {
+    width: 800px;
+    height: 80px;
+    color: #A4A4A4;
+    background-image: url('../image/search.png');
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    padding-left: 90px;
+    font-size: 20px;
+    outline: none;
+}
+
+.Main .contents {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.Main .contents p {
+    float: right;
 }
