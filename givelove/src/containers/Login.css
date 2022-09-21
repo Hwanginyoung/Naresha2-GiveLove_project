@@ -43,7 +43,7 @@
     font-weight: 800;
 }
 
-#id, #password{
+#loginInput #id, #loginInput #password{
     font-size: 13px;
     color: #868686;
 }
