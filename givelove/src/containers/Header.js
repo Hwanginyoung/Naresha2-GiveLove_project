@@ -14,10 +14,10 @@ function Header() {
         <img src={NavLogo} id="BlackLogo" alt="BlackLogo" />
       </div>
       <div id="MenuBar">
-        <div className='menu' onClick={()=>{ navigate('/home') }}>홈</div>
-        <div className='menu' onClick={()=>{ navigate('/donate') }}>기부</div>
-        <div className='menu' onClick={()=>{ navigate('/mypage') }}>MY</div>
-        <div className='login' Link to='/login'>로그인</div>
+        <p className='menu' onClick={()=>{ navigate('/home') }}>홈</p>
+        <p className='menu' onClick={()=>{ navigate('/donate') }}>기부</p>
+        <p className='menu' onClick={()=>{ navigate('/mypage') }}>MY</p>
+        <p className='login' Link to='/login'>로그인</p>
       </div>
     </div>
     </>
