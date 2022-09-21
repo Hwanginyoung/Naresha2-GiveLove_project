@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLogo from '../image/NavLogo.png';
+import NavLogo from '../image/BlackLogo.png';
 import "./Header.css";
 import {useNavigate} from 'react-router-dom';
 
@@ -11,15 +11,13 @@ function Header() {
     <>
     <div id="nav-container">
       <div id="logo">
-        <img src={NavLogo} id="NavLogo" alt="NavLogo" />
+        <img src={NavLogo} id="BlackLogo" alt="BlackLogo" />
       </div>
       <div id="MenuBar">
-        <div class="menu" onClick={()=>{ navigate('/home') }}>홈</div>
-        <div class="menu" onClick={()=>{ navigate('/donate') }}>기부</div>
-        <div class="menu" onClick={()=>{ navigate('/mypage') }}>MY</div>
-      </div>
-      <div id="member">
-        <div id="login" Link to='/login'>로그인</div>
+        <div className='menu' onClick={()=>{ navigate('/home') }}>홈</div>
+        <div className='menu' onClick={()=>{ navigate('/donate') }}>기부</div>
+        <div className='menu' onClick={()=>{ navigate('/mypage') }}>MY</div>
+        <div className='login' Link to='/login'>로그인</div>
       </div>
     </div>
     </>
