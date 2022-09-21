@@ -17,7 +17,7 @@ function Header() {
           <p className='menu' onClick={()=>{ navigate('/home') }}>홈</p>
           <p className='menu' onClick={()=>{ navigate('/Main') }}>기부</p>
           <p className='menu' onClick={()=>{ navigate('/mypage') }}>MY</p>
-          <p className='login' Link to='/login'>로그인</p>
+          <p className='login' onClick={()=>{ navigate('/login') }}>로그인</p>
         </div>
       </div>
     </div>
