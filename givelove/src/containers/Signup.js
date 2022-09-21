@@ -1,4 +1,6 @@
 import React from 'react';
+import divSign from '../image/divSign.png';
+import BlackLogo from '../image/BlackLogo.png';
 import {useNavigate} from 'react-router-dom';
 import "./Signup.css";
 
@@ -9,7 +11,23 @@ function Signup() {
   return (
     <>
     <div id="signupPage">
-        
+            <img src={divSign} id="divSign" alt="divSign" />
+        <div id="signupInput">
+            <img src={BlackLogo} id="BlackLogo" alt="BlackLogo" />
+            <p id="signupText">회원가입</p>
+            <div id="id">아이디</div>
+            <input></input>
+            <button>중복확인</button>
+            <div id="password">비밀번호</div>
+            <input type="password"></input>
+            <div>이름</div>
+            <input></input>
+            <div>전화번호</div>
+            <input></input>
+            <br />
+            <button id="signupButton">회원가입</button>
+            <p id="Q">이미 회원이신가요?<button onClick={()=>{ navigate('/login') }}>로그인</button></p>
+        </div>
     </div>
     </>
   );
