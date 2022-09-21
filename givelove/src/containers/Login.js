@@ -9,11 +9,14 @@ function Login() {
     <div id="loginpage">
             <img src={LoginImg} id="LoginImg" alt="LoginImg" />
         <div id="loginInput">
-            <img src={BlackLogo} id="NavLogo" alt="NavLogo" />
-            <div>아이디</div>
+            <img src={BlackLogo} id="BlackLogo" alt="BlackLogo" />
+            <div id="id">아이디</div>
             <input></input>
-            <div>비밀번호</div>
+            <div id="password">비밀번호</div>
             <input></input>
+            <br />
+            <button id="loginButton">로그인</button>
+            <p>아직 회원이 아닌신가요?<button>회원가입</button></p>
         </div>
     </div>
     </>
