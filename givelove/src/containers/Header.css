@@ -1,15 +1,15 @@
-#nav-container{
+.Header .nav-container{
     width: 1360px;
     margin: 0 auto;
     display: flex;
     align-items: center;
 }
 
-#MenuBar {
+.Header .MenuBar {
     display: flex;
 }
 
-p {
+.Header p {
     margin: 0;
 }
 
