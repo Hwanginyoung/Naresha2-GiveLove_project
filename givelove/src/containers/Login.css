@@ -8,6 +8,11 @@
     margin-bottom: 200px;
 
     border: solid 1px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-use-select: none;
+    user-select: none;
 }
 
 #LoginImg{

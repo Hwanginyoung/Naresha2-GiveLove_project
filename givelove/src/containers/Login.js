@@ -1,9 +1,13 @@
 import React from 'react';
 import LoginImg from '../image/LoginImg.png';
 import BlackLogo from '../image/BlackLogo.png';
+import {useNavigate} from 'react-router-dom';
 import "./Login.css";
 
 function Login() {
+
+  let navigate=useNavigate();
+
   return (
     <>
     <div id="loginpage">
@@ -16,7 +20,7 @@ function Login() {
             <input></input>
             <br />
             <button id="loginButton">로그인</button>
-            <p>아직 회원이 아닌신가요?<button>회원가입</button></p>
+            <p>아직 회원이 아닌신가요?<button onClick={()=>{ navigate('/register') }}>회원가입</button></p>
         </div>
     </div>
     </>
