@@ -6,12 +6,16 @@
     justify-content: center;
 }
 
-.Main .picture1 {
+.Main .header .picture1 {
     width: 1480px;
     height: 500px;
+    margin-bottom: 80px;
 }
 
-.Main .search input {
+.Main .header input {
+    position: absolute;
+    top: 525px;
+    right: 730px;
     width: 600px;
     height: 80px;
     background: white;
