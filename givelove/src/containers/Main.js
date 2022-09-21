@@ -11,10 +11,8 @@ const Main = () => {
                 </div>
                 <div className='contents'>
                     <p className='select'>전체 / 금액 기부 / 물품 기부</p>
-                    <div className='row'>
-                        <div className='col'>
-                            
-                        </div>
+                    <div className='donation'>
+                        
                     </div>
                 </div>
             </header>
