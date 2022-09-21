@@ -1,6 +1,6 @@
 import React from 'react';
 import NavLogo from '../image/NavLogo.png';
-import "./header.css";
+import "./Header.css";
 import {useNavigate} from 'react-router-dom';
 
 function Header() {
