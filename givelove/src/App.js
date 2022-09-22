@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Login from "./containers/Login";
 import Main from "./containers/Main";
 import Signup from "./containers/Signup";
+import Gsignup from "./containers/Gsignup";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Main" element={<Main />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/gsignup" element={<Gsignup />} />
       </Routes>
       <Footer />
     </div>

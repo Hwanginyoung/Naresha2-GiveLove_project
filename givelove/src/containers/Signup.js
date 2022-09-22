@@ -27,7 +27,7 @@ function Signup() {
             <br />
             <button id="signupButton">회원가입</button>
             <p id="Q">이미 회원이신가요?<button onClick={()=>{ navigate('/login') }}>로그인</button></p>
-            <p id="Q">단체 회원가입이신가요?<button onClick={()=>{ navigate('/Gsignup') }}>단체 회원가입</button></p>
+            <p id="Q">단체 회원가입이신가요?<button onClick={()=>{ navigate('/gsignup') }}>단체 회원가입</button></p>
         </div>
     </div>
     </>
