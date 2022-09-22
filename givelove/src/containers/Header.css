@@ -7,13 +7,14 @@
 
 .Header .MenuBar {
     display: flex;
+    margin-left: 40px;
 }
 
 .Header p {
     margin: 0;
 }
 
-.menu {
+.Header .MenuBar .menu {
     width: 70px;
     height: 70px;
     display: flex;
@@ -22,8 +23,7 @@
     font-size: 20px;
 }
 
-.login{
-    text-align: right;
+.Header .MenuBar .login {
     width: 70px;
     height: 70px;
     display: flex;
