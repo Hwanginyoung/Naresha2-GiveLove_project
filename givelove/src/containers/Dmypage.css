@@ -8,7 +8,8 @@
 
     border-bottom: 2px solid;
 
-    margin-top: 100px;
+    margin-top: 50px;
+    
 
 }
 
@@ -16,4 +17,13 @@
     font-weight: 800;
 
     font-size: 20px;
+}
+
+#indivinfo{
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
+
+    font-size: 18px;
+    
 }

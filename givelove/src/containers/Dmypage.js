@@ -12,7 +12,7 @@ function Dmypage() {
                 <p>회원정보</p>
             </div>
             <div id="indivinfo">
-
+                
             </div>
         </div>
     </>
