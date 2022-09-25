@@ -17,14 +17,14 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/gsignup" element={<Gsignup />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/dmypage" element={<Dmypage />} />
-        <Route path="/gmypage" element={<Gmypage />} />
-        <Route path="/moneydetail" element={<MoneyDetail />} />
+        <Route path="/Main" element={<Main />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="Gsignup" element={<Gsignup />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Dmypage" element={<Dmypage />} />
+        <Route path="/Gmypage" element={<Gmypage />} />
+        <Route path="/Moneydetail" element={<MoneyDetail />} />
       </Routes>
       <Footer />
     </div>
