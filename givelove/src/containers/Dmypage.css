@@ -13,13 +13,13 @@
 
 }
 
-#information p{
+#dmypage #information p{
     font-weight: 800;
 
     font-size: 20px;
 }
 
-#indivinfo{
+#dmypage #indivinfo{
     width: 800px;
     margin: 0 auto;
     align-items: center;
