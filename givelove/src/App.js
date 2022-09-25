@@ -8,6 +8,7 @@ import Main from "./containers/Main";
 import Signup from "./containers/Signup";
 import Gsignup from "./containers/Gsignup";
 import Home from "./components/Home";
+import Dmypage from "./containers/Dmypage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/gsignup" element={<Gsignup />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/dmypage" element={<Dmypage />} />
       </Routes>
       <Footer />
     </div>
