@@ -1,0 +1,19 @@
+#dmypage #information{
+
+    width: 800px;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    border-bottom: 2px solid;
+
+    margin-top: 100px;
+
+}
+
+#information p{
+    font-weight: 800;
+
+    font-size: 20px;
+}
