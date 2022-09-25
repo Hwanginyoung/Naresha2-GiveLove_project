@@ -54,11 +54,13 @@
 
     font-size: 11px;
     color: #1D2088;
+
+    font-weight: 900;
 }
 
 #signupInput #signupText{
     margin: 0px;
-    margin-left: 115px;
+    margin-left: 95px;
     color: #6F6F6F;
     font-size: 15px;
     font-weight: 800;

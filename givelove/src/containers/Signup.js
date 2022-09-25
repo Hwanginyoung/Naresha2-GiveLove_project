@@ -14,7 +14,7 @@ function Signup() {
             <img src={divSign} id="divSign" alt="divSign" />
         <div id="signupInput">
             <img src={BlackLogo} id="BlackLogo" alt="BlackLogo" />
-            <p id="signupText">회원가입</p>
+            <p id="signupText">개인 회원가입</p>
             <div id="id">아이디</div>
             <input id="idInput"></input>
             <button id="ck">중복확인</button>
