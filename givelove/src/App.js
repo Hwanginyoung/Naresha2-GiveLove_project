@@ -11,6 +11,7 @@ import Home from "./components/Home";
 import Dmypage from "./containers/Dmypage";
 import Gmypage from "./containers/Gmypage";
 import MoneyDetail from "./containers/MoneyDetail";
+import ArticleDetail from './containers/ArticleDetail';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Dmypage" element={<Dmypage />} />
         <Route path="/Gmypage" element={<Gmypage />} />
         <Route path="/Moneydetail" element={<MoneyDetail />} />
+        <Route path="/Articledetail" element={<ArticleDetail />} />
       </Routes>
       <Footer />
     </div>
