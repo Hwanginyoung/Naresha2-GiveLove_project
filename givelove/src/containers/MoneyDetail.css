@@ -51,8 +51,8 @@
 }
 
 .MoneyDetail .total_amount {
-    margin: 40px 0 90px 0;
-    height: 80px;
+    margin: 60px 0 90px 0;
+    height: 100px;
     background: black;
     display: flex;
     justify-content: center;
