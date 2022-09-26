@@ -1,0 +1,34 @@
+#gmypage{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#gmypage #information{
+    width: 800px;
+    height: 60px;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    border-bottom: 2px solid;
+
+    margin-bottom: 40px;
+}
+
+#gmypage #information p{
+    font-weight: 800;
+
+    font-size: 25px;
+}
+
+#gmypage #Groupinfo{
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
+
+    font-size: 18px;
+
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
