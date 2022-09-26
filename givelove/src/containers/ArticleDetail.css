@@ -50,6 +50,33 @@
     word-break: keep-all;
 }
 
+.ArticleDetail .donated_items {
+    margin: 60px 0 90px 0;
+    height: 100px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ArticleDetail .donated_items .article {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    White-space: pre-wrap;
+}
+
+.ArticleDetail .donated_items .items {
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+.ArticleDetail .donated_items p {
+    margin: 0;
+}
+
 .ArticleDetail .button {
     display: flex;
     justify-content: center;
