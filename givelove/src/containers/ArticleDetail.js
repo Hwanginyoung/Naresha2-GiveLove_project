@@ -1,7 +1,7 @@
 import './ArticleDetail.css';
 import article1 from '../image/article1.png';
 
-const MoneyDetail = () => {
+const ArticleDetail = () => {
     return (
         <div className='ArticleDetail'>
             <header>
@@ -24,4 +24,4 @@ const MoneyDetail = () => {
     )
 }
 
-export default MoneyDetail;
+export default ArticleDetail;

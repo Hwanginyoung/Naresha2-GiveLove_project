@@ -12,6 +12,7 @@ import Dmypage from "./containers/Dmypage";
 import Gmypage from "./containers/Gmypage";
 import MoneyDetail from "./containers/MoneyDetail";
 import ArticleDetail from './containers/ArticleDetail';
+import MakeMoney from './containers/MakeMoney';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Gmypage" element={<Gmypage />} />
         <Route path="/Moneydetail" element={<MoneyDetail />} />
         <Route path="/Articledetail" element={<ArticleDetail />} />
+        <Route path="/Makemoney" element={<MakeMoney />} />
       </Routes>
       <Footer />
     </div>
