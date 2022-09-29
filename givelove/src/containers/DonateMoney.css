@@ -1,0 +1,13 @@
+#donatemoney #text{
+    width: 800px;
+    height: 60px;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    border-bottom: 2px solid;
+
+    font-weight: 800;
+    font-size: 20px;
+}
