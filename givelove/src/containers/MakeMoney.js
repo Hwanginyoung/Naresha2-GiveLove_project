@@ -1,5 +1,7 @@
 import money from '../image/money.png';
 import article from '../image/article.png';
+// import Bank from './Bank';
+import Checkbox from './checkbox';
 import './MakeMoney.css';
 
 const MakeMoney = () => {
@@ -22,6 +24,23 @@ const MakeMoney = () => {
                         </div>
                     </div>
                     <hr />
+                    <div className='main_text'>
+                        <p>기부 설명</p>
+                        <input className='explanation' type="text" />
+                        <p>최소 기부 금액</p>
+                        <input className='donation_money' type="text" />
+                        <p>은행명</p>
+                        <input className='bank' type="text" />
+                        {/* <Bank /> */}
+                        <p>계좌 번호</p>
+                        <input className='bank_number' type="text" />
+                        <p>예금주</p>
+                        <input className='bank_name' type="text" />
+                        <p>카테고리 선택</p>
+                        <Checkbox />
+                        <p>이미지<p>최대 3개까지 등록 가능합니다.</p></p>
+                        <input type="file" />
+                    </div>
                 </div>
             </haeder>
         </div>
