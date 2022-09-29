@@ -90,3 +90,25 @@
     display: flex;
     margin: auto;
 }
+
+.MakeMoney .main_text .back {
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    color: #1D2088;
+    border: 1px solid #1D2088;
+}
+
+.MakeMoney .main_text .make_donation {
+    width: 200px;
+    height: 50px;
+    background: #1D2088;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    border: none;
+}
