@@ -1,10 +1,14 @@
 import money from '../image/money.png';
 import article from '../image/article.png';
+import {useNavigate} from 'react-router-dom';
 // import Bank from './Bank';
 import Checkbox from './checkbox';
 import './MakeMoney.css';
 
 const MakeMoney = () => {
+
+    let navigate=useNavigate();
+
     return (
         <div className='MakeMoney'>
             <haeder>
@@ -41,6 +45,10 @@ const MakeMoney = () => {
                     <Checkbox />
                     <p>이미지<p>최대 3개까지 등록 가능합니다.</p></p>
                     <input type="file" />
+                    <input type="file" />
+                    <input type="file" />
+                    <button className='back' onClick={()=>{ navigate('/MoneyDetail') }}>뒤로가기</button>
+                    <button className='make_donation'>기부 만들기</button>
                 </div>
             </haeder>
         </div>
