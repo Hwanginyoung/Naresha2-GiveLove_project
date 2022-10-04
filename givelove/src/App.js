@@ -14,6 +14,7 @@ import MoneyDetail from "./containers/MoneyDetail";
 import ArticleDetail from './containers/ArticleDetail';
 import MakeMoney from './containers/MakeMoney';
 import DonateMoney from './containers/DonateMoney';
+import MakeArticle from "./containers/MakeArticle";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/Articledetail" element={<ArticleDetail />} />
         <Route path="/Makemoney" element={<MakeMoney />} />
         <Route path="/Donatemoney" element={<DonateMoney />} />
+        <Route path="MakeArticle" element={<MakeArticle />} />
       </Routes>
       <Footer />
     </div>
