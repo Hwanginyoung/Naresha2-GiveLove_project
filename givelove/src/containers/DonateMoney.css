@@ -28,16 +28,55 @@
 
 #donatemoney .info{
     margin-left: 10px;
-    margin-top: 25px;
+    margin-top: 35px;
     font-size: 20px;
+
+    display: flex; 
+
+    margin-right: 20px;
 }
 
-
-#donatemney #userinfo #info div{
-    width: 100px;
-    float: left;
+#donatemoney .info div{
+    width: 180px;
 }
 
-#donatemoney #userinfo input{
-    float: left;
+#donatemoney .info #numtext{
+    margin: 5px 0 0 10px;
+    font-size: 13px;
+    color: #A4A4A4;
+}
+
+#donatemoney .info #amounttext{
+    margin: 0 0 0 8px;
+    font-size: 18px;
+}
+
+#donatemoney .info #acnumtext{
+    margin: -5px 0 0 15px;
+    font-size: 13px;
+    color: #A4A4A4;
+}
+
+#donatemoney .info input{
+    border: 1px solid #A4A4A4;
+    height: 25px;
+    padding-left: 5px;
+}
+
+#donatemoney button{
+    width: 300px;
+    height: 50px;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    margin-top: 150px;
+
+    background-color: #1D2088;
+
+    color: white;
+    justify-content: center;
+    font-size: 15px;
+    
 }
