@@ -149,6 +149,10 @@
     color: #A4A4A4;
 }
 
+.MakeMoney .main_text .picture {
+    display: flex;
+}
+
 .MakeMoney .main_text .button {
     width: 560px;
     display: flex;
