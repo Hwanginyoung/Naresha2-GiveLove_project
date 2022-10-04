@@ -1,7 +1,6 @@
 import money from '../image/money.png';
 import article from '../image/article.png';
 import {useNavigate} from 'react-router-dom';
-// import Bank from './Bank';
 import Checkbox from './Checkbox';
 import './MakeMoney.css';
 
@@ -36,7 +35,6 @@ const MakeMoney = () => {
                             <input className='text_box' type="text" />
                             <p className='text'>은행명</p>
                             <input className='text_box' type="text" />
-                            {/* <Bank /> */}
                             <p className='text'>계좌 번호</p>
                             <input className='text_box' type="text" />
                             <p className='text'>예금주</p>
