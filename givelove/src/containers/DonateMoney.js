@@ -34,7 +34,7 @@ function DonateMoney() {
           </div>
           <div class="info">
             <div>은행명 </div>
-            <input></input> 
+            <select></select> 
           </div>
           <div class="info">
             <div>계좌번호 </div>
