@@ -31,3 +31,13 @@
     margin-top: 25px;
     font-size: 20px;
 }
+
+
+#donatemney #userinfo #info div{
+    width: 100px;
+    float: left;
+}
+
+#donatemoney #userinfo input{
+    float: left;
+}
