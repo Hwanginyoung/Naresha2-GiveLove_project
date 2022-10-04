@@ -91,9 +91,23 @@
     margin: auto;
 }
 
+.MakeMoney .main_text {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 240px;
+}
+
 .MakeMoney .main_text .under_text {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.MakeMoney .main_text .under_text .text_left {
+    width: 286px;
+}
+
+.MakeMoney .main_text .under_text .text_right {
+    width: 560px;
 }
 
 .MakeMoney .main_text .text {
@@ -104,8 +118,17 @@
     color: #000000;
 }
 
+.MakeMoney .main_text .cartagori_text {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-bottom: 0;
+}
+
 .MakeMoney .main_text .explanation {
-    width: 800px;
+    width: 1000px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -126,9 +149,15 @@
     color: #A4A4A4;
 }
 
+.MakeMoney .main_text .button {
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .MakeMoney .main_text .back {
-    width: 200px;
-    height: 50px;
+    width: 260px;
+    height: 55px;
     background: transparent;
     font-weight: 400;
     font-size: 15px;
@@ -138,8 +167,8 @@
 }
 
 .MakeMoney .main_text .make_donation {
-    width: 200px;
-    height: 50px;
+    width: 260px;
+    height: 55px;
     background: #1D2088;
     font-weight: 400;
     font-size: 15px;

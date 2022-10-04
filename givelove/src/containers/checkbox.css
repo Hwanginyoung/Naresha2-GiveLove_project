@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    width: 600px;
 }
 
 .checkbox-tool .check-container {
@@ -14,8 +15,8 @@
     appearance: none;
     border: 1.5px solid gainsboro;
     border-radius: 50px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 .checkbox-tool .check-container .checkbox:checked {
@@ -28,7 +29,7 @@
 }
 
 .checkbox-tool .check-container .cartagori {
-    font-size: 15px;
+    font-size: 14px;
     display: flex;
     margin-left: 0.5rem;
     margin-right: 0.5rem;

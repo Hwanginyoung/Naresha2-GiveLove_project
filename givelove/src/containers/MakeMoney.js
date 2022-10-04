@@ -6,9 +6,7 @@ import Checkbox from './Checkbox';
 import './MakeMoney.css';
 
 const MakeMoney = () => {
-
     let navigate=useNavigate();
-
     return (
         <div className='MakeMoney'>
             <haeder>
@@ -44,15 +42,14 @@ const MakeMoney = () => {
                             <p className='text'>예금주</p>
                             <input className='text_box' type="text" />
                         </div>
-                        <div className='right'>
-                            <p className='text'>카테고리 선택</p>
+                        <div className='text_right'>
+                            <p className='cartagori_text'>카테고리 선택</p>
                             <Checkbox />
                             <p className='text'>이미지<p className='detail_text'>최대 3개까지 등록 가능합니다.</p></p>
-                            <input type="file" />
-                            <input type="file" />
-                            <input type="file" />
-                            <button className='back' onClick={()=>{ navigate('/MoneyDetail') }}>뒤로가기</button>
-                            <button className='make_donation'>기부 만들기</button>
+                            <div className='button'>
+                                <button className='back' onClick={()=>{ navigate('/MoneyDetail') }}>뒤로가기</button>
+                                <button className='make_donation'>기부 만들기</button>
+                            </div>
                         </div>
                     </div>
                 </div>
