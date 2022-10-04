@@ -1,0 +1,39 @@
+.MakeArticle {
+    width: 1480px;
+    margin: 0 auto;
+}
+
+.MakeArticle .name {
+    background: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.MakeArticle .name .title {
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+}
+
+.MakeArticle .main_text {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.MakeArticle .main_text .text {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.MakeArticle .main_text .explanation {
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

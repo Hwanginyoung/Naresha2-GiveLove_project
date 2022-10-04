@@ -44,6 +44,11 @@ const MakeMoney = () => {
                             <p className='cartagori_text'>카테고리 선택</p>
                             <Checkbox />
                             <p className='text'>이미지<p className='detail_text'>최대 3개까지 등록 가능합니다.</p></p>
+                            <div className='picture'>
+                                <input className='image' type='file' />
+                                <input className='image' type='file' />
+                                <input className='image' type='file' />
+                            </div>
                             <div className='button'>
                                 <button className='back' onClick={()=>{ navigate('/MoneyDetail') }}>뒤로가기</button>
                                 <button className='make_donation'>기부 만들기</button>
