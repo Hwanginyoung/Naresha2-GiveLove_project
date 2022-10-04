@@ -9,10 +9,16 @@ function DonateMoney() {
       <Donateheader />
       <div id="donatemoney">
         <div id="userinfo">
-          <div id="text">기부자 정보</div>
+          {/* <div id="text">기부자 정보</div>
           <div class="info">기부자명 <input></input> </div> 
           <div class="info">생년월일 <input></input> </div>
-          <div class="info">전화번호 <input></input> </div>
+          <div class="info">전화번호 <input></input> </div> */}
+
+          <div class="info">
+            <div>기부자명</div>
+            <input></input>
+          </div>
+
         </div>
         <div id="payment">
           <div id="text">기부금 결제</div>
