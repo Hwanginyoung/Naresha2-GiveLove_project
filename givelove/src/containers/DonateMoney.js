@@ -16,7 +16,7 @@ function DonateMoney() {
           </div> 
           <div class="info">
             <div>생년월일 </div>
-            <input placeholder="ex) oooo.oo.oo"></input> 
+            <input placeholder="ex) 19980101"></input> 
           </div>
           <div class="info">
             <div>전화번호 </div>
