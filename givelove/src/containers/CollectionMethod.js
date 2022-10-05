@@ -18,6 +18,7 @@ function CollectionMethod() {
             <input type="checkbox" name="method" class="method" value="direct" onChange={(e) => checkOnlyOne(e.target)} /> <p>직접방문</p>
             <input type="checkbox" name="method" class="method" value="pickup" onChange={(e) => checkOnlyOne(e.target)} /> <p>방문수거</p>
         </div>
+        <div id="clear" />
       </>
     )
 }
