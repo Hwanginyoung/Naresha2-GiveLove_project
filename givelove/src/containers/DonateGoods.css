@@ -78,3 +78,9 @@
     color: #A4A4A4;
     font-size: 11px;
 }
+
+#donategoods #donation .exp{
+    margin: 35px 0 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+}

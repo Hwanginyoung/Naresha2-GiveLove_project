@@ -2,7 +2,8 @@ import React from "react";
 import "./DonateGoods.css";
 
 import Donateheader from "../components/Donateheader";
-import Inventory from "../components/Inventory";
+import Inventory from "./Inventory";
+import CollectionMethod from "./CollectionMethod";
 
 function DonateGoods() {
   return (
@@ -28,9 +29,12 @@ function DonateGoods() {
           
           <div id="donation">
             <div id="text">물품 기증</div>
+            <p class="exp">기부할 물품 목록(1개 이상)</p>
             <Inventory />
-            <div></div>
-            <div></div>
+            <p class="exp">수거방법</p>
+            <CollectionMethod />
+            <p class="exp">주소</p>
+            
           </div>
           <button>기부하기</button>
         </div>

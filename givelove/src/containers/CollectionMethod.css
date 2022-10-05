@@ -1,0 +1,24 @@
+#send{
+    margin-left: -5px;
+}
+
+#send input{
+    appearance: none;
+    border: 1.5px solid gainsboro;
+    width: 18px;
+    height: 18px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    border-radius: 10px;
+
+    float: left;
+}
+
+#send p{
+    margin: 16px 8px;
+    float: left;
+
+    font-size: 17px;
+}
