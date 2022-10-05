@@ -12,14 +12,11 @@ function CollectionMethod() {
     }
 
     return (
-      <>
-         <div id="send">
-            <input type="checkbox" name="method" class="method" value="package" onChange={(e) => checkOnlyOne(e.target)} /> <p>택배</p>
-            <input type="checkbox" name="method" class="method" value="direct" onChange={(e) => checkOnlyOne(e.target)} /> <p>직접방문</p>
-            <input type="checkbox" name="method" class="method" value="pickup" onChange={(e) => checkOnlyOne(e.target)} /> <p>방문수거</p>
-        </div>
-        <div id="clear" />
-      </>
+      <div className='take'>
+        <label for="chk1"><input className="checkbox" type="checkbox" id="chk1" name="method" onChange={(e) => checkOnlyOne(e.target)}/>택배</label>
+        <label for="chk2"><input className="checkbox" type="checkbox" id="chk2" name="method" onChange={(e) => checkOnlyOne(e.target)}/>직접 방문</label>
+        <label for="chk3"><input className="checkbox" type="checkbox" id="chk3" name="method" onChange={(e) => checkOnlyOne(e.target)}/>단체 수거</label>
+      </div>
     )
 }
 
