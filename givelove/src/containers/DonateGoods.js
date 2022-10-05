@@ -1,11 +1,14 @@
 import React from "react";
 import "./DonateGoods.css";
+import DaumPostcode from 'react-daum-postcode';
 
 import Donateheader from "../components/Donateheader";
 import Inventory from "./Inventory";
-import CollectionMethod from "./CollectionMethod";
 
 function DonateGoods() {
+
+//https://infodon.tistory.com/117
+
   return (
     <>
         <Donateheader />
@@ -31,11 +34,16 @@ function DonateGoods() {
             <div id="text">물품 기증</div>
             <p class="exp">기부할 물품 목록(1개 이상)</p>
             <Inventory />
-            <p class="exp">수거방법</p>
-            <CollectionMethod />
+
+            <p class="exp" id="adrstext">주소</p>
+            <input type="text" id="address" placeholder="주소"></input>
+            <input type="button" id="find" value="찾기" onClick=""/> <br/>
+            <input type="text" id="detailaddress" placeholder="상세주소"></input>
+            
 
           </div>
-          <button>기부하기</button>
+          <button id="donate">기부하기</button>
+          <p id="warnning">※ 단체의 상황과 물건상태에 따라 거부될 수 도 있습니다. ※</p>
         </div>
     </>
   );
