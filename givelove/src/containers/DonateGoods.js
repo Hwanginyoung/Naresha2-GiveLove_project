@@ -33,8 +33,7 @@ function DonateGoods() {
             <Inventory />
             <p class="exp">수거방법</p>
             <CollectionMethod />
-            <p class="exp">주소</p>
-            
+
           </div>
           <button>기부하기</button>
         </div>
