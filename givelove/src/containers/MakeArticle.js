@@ -2,6 +2,7 @@ import './MakeArticle.css';
 import {useNavigate} from 'react-router-dom';
 import Checkbox from './Checkbox';
 import React from 'react';
+import CollectionMethod from './CollectionMethod';
 
 const MakeArticle = () => {
     let navigate=useNavigate();
@@ -13,17 +14,28 @@ const MakeArticle = () => {
                 </div>
                 <div className='main_text'>
                     <p className='text'>기부 설명</p>
-                    <input className='explanation' type="text" />
+                    <textarea className='explanation' />
                     <p className='text'>기부 받고 싶은 물품 목록</p>
-                    <input className='thing' />
-                    <button className='add'>추가</button>
+                    <div className='give_thing'>
+                        <input className='thing' />
+                        <button className='add'>추가</button>
+                    </div>
                     <p className='text'>주소</p>
-                    <input className='address' />
-                    <button className='find'>찾기</button><br />
+                    <div className='juso'>
+                        <input className='address' />
+                        <button className='find'>찾기</button>
+                    </div>
                     <input className='address2' />
-                    <p className='text'>기부 수거 방법</p>
-                    <p className='cartagori_text'>카테고리 선택</p>
-                    <Checkbox />
+                    <div className='cartagori'>    
+                        <div className='check-container2'>
+                            <p className='cartagori_text'>기부 수거 방법</p>
+                            <CollectionMethod />
+                        </div>
+                        <div>
+                            <p className='cartagori_text'>카테고리 선택</p>
+                            <Checkbox />
+                        </div>
+                    </div>
                     <p className='text'>이미지<p className='detail_text'>최대 3개까지 등록 가능합니다.</p></p>
                     <div className='under_text'>
                         <div className='pictures'>
