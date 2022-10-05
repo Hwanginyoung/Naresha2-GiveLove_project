@@ -4,8 +4,28 @@ import {useNavigate} from 'react-router-dom';
 import Checkbox from './Checkbox';
 import './MakeMoney.css';
 
+const banks = ['', 'NH농협', '국민은행', '기업은행', '신한은행', '우리은행', '하나은행', '카카오뱅크', '케이뱅크', '토스뱅크', 'SC제일', '경남은행', '광주은행', '대구은행', '부산은행', '산업은행', '수협은행', '전북은행', '제주은행', '한국씨티은행', '새마을금고', '신협', '상호저축은행', '산림조합', '우체국']
+
+const checkOnlyOne = (checkThis) => {
+    const checkboxes = document.getElementsByName('method')
+    for (let i = 0; i < checkboxes.length; i++) {
+      if (checkboxes[i] !== checkThis) {
+        checkboxes[i].checked = false
+      }
+    }
+  }
+
 const MakeMoney = () => {
     let navigate=useNavigate();
+
+    let strtmp = banks.map((bank, index) => {
+        return (
+            bank
+            );
+      });
+      console.log(strtmp);
+    
+
     return (
         <div className='MakeMoney'>
             <haeder>
@@ -15,53 +35,24 @@ const MakeMoney = () => {
                 <div className='choose'>
                     <p className='choose_name'>당신이 만들 기부의 종류를 선택해 주세요</p>
                     <div className='button'>
-                        <div className='money_check'>
-                            <input className="checkbox" type="checkbox"/>
-                            <button className='money_bt'><img src={money} className="money" alt="money" />금액 기부</button>
+                        <div className='check_money'>
+                            <label for="money"><input className="checkbox" type="checkbox" id="money" name="method" onChange={(e) => checkOnlyOne(e.target)}/><img src={money} className="money" alt="money" />금액 기부</label>
                         </div>
-                        <div className='article_check'>
-                            <input className="checkbox" type="checkbox"/>
-                            <button className='article_bt'><img src={article} className="article" alt="article" />물품 기부</button>
+                        <div className='check_article'>
+                            <label for="article"><input className="checkbox" type="checkbox" id="article" name="method" onChange={(e) => checkOnlyOne(e.target)}/><img src={article} className="article" alt="article" />물품 기부</label>
                         </div>
                     </div>
                 </div>
-                <hr />
+                <hr className='hr' />
                 <div className='main_text'>
                     <p className='text'>기부 설명</p>
-                    <input className='explanation' type="text" />
+                    <textarea className='explanation' />
                     <div className='under_text'>
                         <div className='text_left'>
                             <p className='text'>최소 기부 금액</p>
                             <input className='text_box' type="text" />
                             <p className='text'>은행명</p>
-                            <select className='bank'>
-                                <option value="0"></option>
-                                <option value="1">NH농협</option>
-                                <option value="2">국민은행</option>
-                                <option value="3">기업은행</option>
-                                <option value="4">신한(구조흥)은행</option>
-                                <option value="5">우리은행</option>
-                                <option value="6">하나은행</option>
-                                <option value="7">카카오뱅크</option>
-                                <option value="8">케이뱅크</option>
-                                <option value="9">토스뱅크</option>
-                                <option value="10">SC제일</option>
-                                <option value="11">경남은행</option>
-                                <option value="12">광주은행</option>
-                                <option value="13">대구은행</option>
-                                <option value="14">부산은행</option>
-                                <option value="15">산업은행</option>
-                                <option value="16">수협은행</option>
-                                <option value="17">전북은행</option>
-                                <option value="18">제주은행</option>
-                                <option value="19">한국씨티은행</option>
-                                <option value="20">새마을금고</option>
-                                <option value="21">신협</option>
-                                <option value="22">상호저축은행</option>
-                                <option value="23">산림조합</option>
-                                <option value="24">우체국</option>
-                                <option value="25">도이치</option>
-                            </select>
+                            <select className="bank">{strtmp}</select>
                             <p className='text'>계좌 번호</p>
                             <input className='text_box' type="text" />
                             <p className='text'>예금주</p>

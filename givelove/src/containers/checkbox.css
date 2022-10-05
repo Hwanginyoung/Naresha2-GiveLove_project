@@ -17,6 +17,8 @@
     border-radius: 50px;
     width: 15px;
     height: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .checkbox-tool .check-container .checkbox:checked {
