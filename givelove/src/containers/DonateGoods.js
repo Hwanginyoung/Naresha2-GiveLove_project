@@ -1,14 +1,10 @@
 import React from "react";
 import "./DonateGoods.css";
-//import DaumPostcode from 'react-daum-postcode';
-
+// import DaumPostcode from 'react-daum-postcode';
 import Donateheader from "../components/Donateheader";
 import Inventory from "./Inventory";
 
 function DonateGoods() {
-
-//https://infodon.tistory.com/117
-
 
   return (
     <>

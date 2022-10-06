@@ -1,10 +1,18 @@
+import React, { useState } from 'react';
 import './MakeArticle.css';
 import {useNavigate} from 'react-router-dom';
 import Checkbox from './Checkbox';
-import React from 'react';
 import CollectionMethod from './CollectionMethod';
 
 const MakeArticle = () => {
+    const [text, setText] = useState('');
+ 
+    const onChange = (e) => {
+        setText(e.target.value);
+    };
+
+    const [word, setWord] = useState(0)
+
     let navigate=useNavigate();
     return (
         <div className="MakeArticle">
@@ -17,8 +25,11 @@ const MakeArticle = () => {
                     <textarea className='explanation' />
                     <p className='text'>기부 받고 싶은 물품 목록</p>
                     <div className='give_thing'>
-                        <input className='thing' />
-                        <button className='add'>추가</button>
+                        <input className='thing' onChange={onChange} value={text} />
+                        <button className='add' onClick={() => {setWord(1)}}>추가</button>
+                        {
+                            word===1 ? <div>{text}</div> : null
+                        }
                     </div>
                     <p className='text'>주소</p>
                     <div className='juso'>

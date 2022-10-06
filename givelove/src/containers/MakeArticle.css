@@ -42,9 +42,7 @@
 }
 
 .MakeArticle .main_text .give_thing {
-    width: 556px;
     display: flex;
-    justify-content: space-between;
 }
 
 .MakeArticle .main_text .juso {
@@ -70,6 +68,7 @@
     line-height: 26px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+    margin-left: 30px;
 }
 
 .MakeArticle .main_text .address {
