@@ -6,18 +6,19 @@ import {useNavigate} from 'react-router-dom';
 function Header() {
 
   let navigate=useNavigate();
-
+  //https://url.kr/d6bhjl
+  
   return (
-    <div className='Header'>
-      <div className='nav-container'>
-        <div className='logo'>
-          <img src={NavLogo} className='BlackLogo' alt="BlackLogo" />
+    <div id='Header'>
+      <div id='nav-container'>
+        <div id='logo'>
+          <img src={NavLogo} id='BlackLogo' alt="BlackLogo" />
         </div>
-        <div className='MenuBar'>
-          <p className='menu' onClick={()=>{ navigate('/home') }}>홈</p>
-          <p className='menu' onClick={()=>{ navigate('/Main') }}>기부</p>
-          <p className='menu' onClick={()=>{ navigate('/mypage') }}>MY</p>
-          <p className='login' onClick={()=>{ navigate('/login') }}>로그인</p>
+        <div id='MenuBar'>
+          <p class='menu' onClick={()=>{ navigate('/home') }}>홈</p>
+          <p class='menu' onClick={()=>{ navigate('/Main') }}>기부</p>
+          <p class='menu' onClick={()=>{ navigate('/mypage') }}>MY</p>
+          <p id='login' onClick={()=>{ navigate('/login') }}>로그인</p>
         </div>
       </div>
     </div>
